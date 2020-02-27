@@ -1,0 +1,69 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700|Ubuntu:400,500,600,700');
+
+body {
+  @apply text-black antialiased text-sm font-body;
+}
+
+.header {
+  @apply font-header;
+  @apply font-bold;
+  @apply text-xl;
+  @apply text-primary-1;
+  @apply uppercase;
+  @apply inline-block;
+  @apply border-b-2;
+  @apply border-primary-1;
+  @apply mb-1;
+}
+
+a {
+  @apply text-black !important;
+  @apply no-underline !important;
+}
+
+p {
+  @apply text-sm;
+}
+
+ul {
+  @apply list-disc;
+}
+
+.container {
+  @apply px-8;
+  @apply py-6;
+}
+
+.section {
+  @apply subpixel-antialiased;
+  @apply small-caps;
+}
+
+.paragraph {
+  @apply text-sm;
+  @apply leading-tight;
+  @apply mb-2;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+.icon-text {
+  @apply ml-1;
+  @apply self-center;
+  @apply text-sm;
+}
+
+@page {
+  size: 'letter';
+  margin-top: 2cm;
+}
+
+.experience-item {
+  page-break-inside: avoid;
+}
