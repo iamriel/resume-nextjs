@@ -64,6 +64,6 @@ ul {
   margin-top: 2cm;
 }
 
-.experience-item {
-  page-break-inside: avoid;
-}
+/* .experience-item { */
+/*   page-break-inside: avoid; */
+/* } */
